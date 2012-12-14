@@ -11,7 +11,7 @@ public class HadesApplication extends Application {
 	
 	@Override
 	public void init() {
-		
+		 
 		CustomLayout custom = new CustomLayout("panel-widgets");
 		 
 // TEST GIT		 
