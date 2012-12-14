@@ -1,0 +1,683 @@
+@import "../runo/styles.css";
+
+
+.v-datefield input.v-textfield[type="text"] {
+	height: 24px;
+}
+.v-filterselect-input {
+	height: 24px;
+}
+
+.console {
+	background-color: black;
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: "courier";
+}
+.console .v-csslayout-container {
+    height: 350px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 10px;
+    width: 99%;
+}
+.console-panel {
+	
+}
+
+.form {
+	border-bottom: 1px solid #BBBBBB;
+	padding-bottom: 10px;
+	margin-bottom: 5px;
+}
+.form legend {
+	font-size: 24px;
+	font-weight: normal;
+	color: #F14C1A;
+}
+.form-layout {
+    width: 700px;
+    margin: auto;
+    margin-top: 20px;
+}
+.form-button-bar {
+	margin-bottom: 10px;
+}
+.form-button-bar .v-button-caption {
+    font-size: 18px;
+}
+
+
+
+.attribute-name-field {
+	padding-top: 5px !important;
+}
+.add-label {
+	padding-top: 5px;
+	color: #4c9adf;
+}
+
+
+
+
+
+
+
+
+
+.v-icon {
+    margin-right: 10px;   
+}
+
+.v-accordion-item-caption .v-icon {
+    float: right;
+    margin-right: 5px;
+}
+
+.v-window-modalitycurtain {
+    background-color: black;
+    opacity: 0.6;
+}
+
+
+
+/**
+ * Menu styles
+ */
+.v-menubar-menu {
+    background: -moz-linear-gradient(#6FACD5, #497BAE) repeat scroll 0 0 #5E87B0;
+    background: -webkit-gradient(linear, left top, left bottom, from(#6FACD5), to(#497BAE));
+
+	border-bottom: 1px solid #456F9A;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-shadow: 0 -1px 1px #000000;
+    padding-top: 8px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.v-menubar-menuitem-caption:hover {
+	color: #DDDDDD; 
+}
+
+
+.v-menubar-menu .v-menubar-menuitem {
+    display: block;
+    border: 0px;
+    font-size: 16px;
+    min-width: 0.75em;
+    overflow: hidden;
+    padding: 0.6em 20px;
+    position: relative;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: middle;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+
+
+/**
+ * CRUD Window styles
+ */
+.form-panel,
+.v-panel-form-panel,
+.v-panel-content-form-panel {
+    max-height: 680px;
+    overflow-x: hidden;
+}
+ 
+.v-panel-form-panel,
+.v-panel-caption-form-panel,
+.v-panel-nocaption-form-panel,
+.v-panel-content-form-panel,
+.v-panel-deco-form-panel {
+    border: 0;
+    background: none;
+    
+}
+.v-panel-deco-form-panel:before {
+    background-image: none;
+}
+
+.button-panel {
+    border-top: 1px solid #CCCCCC;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.attribute-table {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+/**
+ * ABM Styles
+ */
+.searchResultComponent {
+    background-color: white;
+}
+
+input.v-textfield[type="text"] {
+    height: 24px;
+    padding-top: 4px;
+    font-size: 16px;
+    color: #777777;
+}
+
+.resultArea {
+    /*
+    border-top: 1px dotted #CCCCCC;
+    border-bottom: 1px dotted #CCCCCC;
+    background-color: #F5F5F5;
+    */
+}
+
+.pagination {
+    border-top: 15px solid #EEEEEE;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.searchCriteria {
+    margin: auto;
+}
+.v-panel-caption-searchCriteria {
+    border-bottom: 1px dotted #CCCCCC;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.searchCriteriaLayout {
+    border-bottom: 1px solid #F0F0F0;
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.title {
+    font-size: 40px;
+    margin-top: 20px;
+    text-align: center;
+    text-shadow: 1px 2px 1px #CCCCCC;
+}
+
+.big-title {
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 1px 2px 1px #CCCCCC;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.small-title {
+	font-size: 14px;
+	font-weight: bold;
+	margin: 10px;
+}
+
+.collapseFilterButton {
+    left: 35px;
+    top: 35px;
+    position: absolute;
+    font-size: 35px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+.collapseFilterButton .v-button-caption {
+    font-size: 35px;
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+    color: #CCCCCC;
+    transition: color 500ms;
+    -moz-transition: color 500ms;
+    -webkit-transition: color 500ms;
+    -o-transition: color 500ms;
+}
+.collapseFilterButton .v-button-caption:hover {
+    color: black;
+}
+
+
+/**
+ * Buttons
+ */ 
+.saveButton,
+.delete,
+.primary,
+.v-nativebutton {
+    padding: 1px;
+    border: none;
+    background: transparent;
+    display: block;
+    font-size: 12px;
+    border: 1px solid #bdc1c2;
+    border-top-color: #cbcfd0;
+    border-bottom-color: #b6bbbb;
+    border-color: rgba(146,151,152,.8);
+    border-top-color: rgba(146,151,152,.6);
+    background: #e6e8e8 url(images/button-bg.png) repeat-x;
+    -webkit-background-origin: padding;
+    -moz-background-origin: padding;
+    padding: 3px 15px;
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    border-radius: 11px;
+    line-height: 14px;
+    min-height: 14px;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.15);
+    -moz-box-shadow: 0 1px 0 rgba(0,0,0,.15);
+    text-shadow: 0 1px 0 #fff;
+    color: #464f52;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+    transition: border 500ms;
+    -moz-transition: border 500ms;
+    -webkit-transition: border 500ms;
+    -o-transition: border 500ms;
+}
+.saveButton:focus,
+.delete:focus,
+.primary:focus,
+.v-nativebutton:focus {
+    outline: none;
+    border-color: #57a7ed;
+    border-top-color: #60aef1;
+    border-bottom-color: #4c9adf;
+    -webkit-box-shadow: 0 0 2px #57a7ed;
+    -moz-box-shadow:  0 0 2px #57a7ed;
+}  
+.saveButton:active,
+.delete:active,
+.primary:active,
+.v-nativebutton:active {
+    background-position: 0 -79px;
+    background-color: #e7e9e9;
+    border-color: #b8bdbe;
+    border-top-color: #9da1a2;
+    border-bottom-color: #babfc0;
+    border-color: rgba(146,151,152,.9);
+    border-top-color: rgba(146,151,152,1);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.4) inset;
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.4) inset;;
+    text-shadow: none;
+}
+.saveButton:hover,
+.delete:hover,
+.primary:hover,
+.v-nativebutton:hover {
+    border: 1px solid #4D90FE; 
+}
+
+
+
+
+.link,
+.link:active,
+.link:focus {
+    background: none;
+    border: 0;
+    box-shadow: none;
+    color: #DDDDDD;
+    transition: color 1s;
+    -moz-transition: color 500ms;
+    -webkit-transition: color 500ms;
+    -o-transition: color 500ms;
+}
+.link:hover {
+    color: #4D90FE;
+    border: 0;
+}
+
+
+
+/**
+ *	Rule editor
+ */
+.rule-editor-main {
+	border: 1px solid #CCCCCC;
+	background: none;
+	padding: 0;
+}
+.v-panel-nocaption-rule-editor-main {
+	height: 0;
+}
+.v-panel-caption-rule-editor-main {
+	border: 0;
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	background: none;
+	padding: 0;
+	margin: 0;
+}
+.v-panel-caption-rule-editor-main .v-icon {
+	margin-right: 5px;
+} 
+.v-panel-content-rule-editor-main { 
+	border: 0;
+    overflow: hidden;
+}
+.v-panel-deco-rule-editor-main {
+	border: 0;
+	background: none;
+}
+.rule-editor-main .v-panel-deco {
+	border: 0;
+	background: none;
+}
+.rule-editor-main .v-panel-deco:before {
+	border: 0;
+	background: none;
+}
+.trash-layout {
+	padding: 0;
+	margin: 0;
+}
+.v-verticallayout-trash-layour div {
+	padding: 0;
+	margin: 0;
+}
+
+.rule-field {
+    font-size: 14px;
+    height: 25px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 2px;
+    padding-top: 5px;
+    width: 450px;
+}
+
+.toolbox {
+    border: 0;
+    padding-bottom: 10px;
+}
+
+.v-tree-node-caption span {
+    transition: color 1s;
+    -moz-transition: color 500ms;
+    -webkit-transition: color 500ms;
+    -o-transition: color 500ms;
+    font-size: 12px;
+}
+.v-tree-node-caption span:hover {
+    color: black;
+}
+
+
+div.v-tree-node-leaf:hover {
+    opacity: 0.8;
+    cursor: move;
+}
+
+
+
+/**
+ * Rule editor - Trash box
+ */ 
+.trash-panel {
+    border: 0;
+    background: none;
+    padding: 0;
+}
+
+.v-panel-caption-trash-panel {
+    border: 0;
+    border-top: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    background: none;
+    padding-top: 5px;
+    margin: 0;
+}
+.v-panel-caption-trash-panel .v-icon {
+    margin-right: 5px;
+} 
+.v-panel-content-trash-panel { 
+    border: 0;
+    background: none;   
+}
+.v-panel-deco-trash-panel {
+    border: 0;
+    background: none;
+}
+.trash-panel .v-panel-deco {
+    border: 0;
+    background: none;
+}
+.trash-panel .v-panel-deco:before {
+    border: 0;
+    background: none;
+}
+
+.trash-layout {
+    padding: 0;
+    margin: 0;
+}
+.v-verticallayout-trash-layour div {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/**
+ * Pin button - UI Component
+ */
+.button-block,
+.button-block-clicked  {
+	background-image: url('images/pin.png');
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	border: 0;
+}
+.button-block .v-button-wrap,
+.button-block-clicked .v-button-wrap {
+	background: none;
+	border: 0;
+	border-radius: none;
+	box-shadow: none;
+	/*padding: 0;*/
+	text-overflow: none;
+	text-shadow: none;	
+}
+.v-button:focus .v-button-wrap {
+    box-shadow: none;
+}
+.button-block-clicked {
+	background-image: url('images/pinned.png');
+}
+
+
+/**
+ * General styles for UI Components
+ */
+.label-block {
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 2px;
+}
+
+.layout {
+    padding-top: 10px;
+}
+.layout-no-padding {
+    padding-top: 5px;
+}
+
+.composite-error {
+    border-left: 2px dotted red !important;
+}
+
+
+
+
+
+/**
+ * Conditions block - UI Component
+ */
+.conditions-block {
+	border: 0;
+	background-image: url('images/conditions-block.png');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	padding-top: 40px;
+	padding-left: 10px;
+}
+
+/**
+ * And block - UI Component
+ */
+.and-block {
+	background: transparent;
+	border: 0;
+	background-image: url('images/and-block.png');
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	
+	padding-top: 5px;
+    padding-left: 18px;
+    padding-bottom: 10px;
+	width: 650px;
+}
+.and-block:HOVER {
+	opacity: 0.9;	
+}
+
+/**
+ * Or block - UI Component
+ */
+.or-block {
+    background: transparent;
+    border: 0;
+    background-image: url('images/or-block.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    padding-left: 18px;
+    padding-bottom: 10px;
+    width: 650px;
+}
+.or-block:HOVER {
+    opacity: 0.9;   
+}
+
+/**
+ * Not block - UI Component
+ */
+.not-block {
+    background: transparent;
+    border: 0;
+    background-image: url('images/not-block.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    padding-top: 5px;
+    padding-left: 18px;
+    padding-bottom: 10px;
+    width: 650px;
+}
+.not-block:HOVER {
+    opacity: 0.9;   
+}
+
+
+
+/**
+ * Condition block - UI Component
+ */
+.condition-block {
+	background-color: #FFA70D;
+	border-radius: 10px 10px 10px 10px;
+	border-bottom: 1px solid white;
+	margin-top: 2px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 4px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    text-align: center;
+	color: white;
+	position: relative;
+	z-index: 1;
+}
+.condition-block:HOVER {
+
+}
+.condition-block .v-datefield input.v-textfield[type="text"] {
+    height: 16px;
+    font-size: 13px;    
+}
+
+/**
+ * Plan block - UI Component
+ */
+.plan-block {
+    background-color: #FFA70D;
+    border-radius: 10px 10px 10px 10px;
+    border-bottom: 1px solid white;
+    margin-top: 2px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 4px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+.plan-block:HOVER {
+
+}
+
+
+
+/**
+ * Then block - UI Component
+ */
+.actions-block {
+	background-image: url('images/actions-block.png');
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: 20px 0;
+	padding-top: 45px;
+	padding-left: 35px;
+}
+
+
+/**
+ * Action block - UI Component
+ */
+.action-block {
+	background-color: #FFB619;
+    border-radius: 10px 10px 10px 10px;
+    border-bottom: 1px solid white;
+    margin-top: 2px;
+	padding-top: 12px;
+	padding-left: 8px;
+	padding-bottom: 5px;
+	padding-right: 2px;
+	font-size: 12px;
+	font-weight: bold;
+	color: white;	
+}
+.action-block:HOVER {
+	opacity: 0.9;
+}
+.action-block .v-textfield {
+    font-size: 14px;
+    height: 16px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 2px;
+    padding-top: 5px;
+    width: 130px;
+}
+
+
