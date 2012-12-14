@@ -14,7 +14,7 @@ public class HadesApplication extends Application {
 		
 		CustomLayout custom = new CustomLayout("panel-widgets");
 		 
-		
+// TEST GIT		 
 		custom.addComponent(new Embedded("", new ThemeResource("images/warning-icon.png")), "warning-icon");
 		
 		
