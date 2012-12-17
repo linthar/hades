@@ -5,15 +5,56 @@ body {
 	font-size: 12px;
 }
 
-
+/**
+ Header styles
+ */
 .header {
-    background-color: #FECA00;
-    box-shadow: 0 1px 4px #CCCCCC;
+    border-bottom: 3px solid #FECA00;
+    height: 50px;
+    padding-left: 5px;
+    padding-top: 5px;
+    color: #555555;
+    font-weight: bold;
+    clear: both;
+ }
+	
+.landscape {
+    background-image: url("images/landscape.png");
+    background-position: 0 -366px;
+    border-bottom: 0 solid #AAAAAA;
+    box-shadow: 0 1px 3px #CCCCCC;
     float: left;
-    padding: 15px;
-    height: 30px;
-    width: 1300px; 		 /* TODO: lograr que sea 100% */
+	height: 160px;
+    width: 100%;
 }
+
+.header .logo {
+	float: left;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.header .options {
+	padding-right: 30px;
+	float: right;
+}
+.header .options .option {
+	float: left;
+	padding-top: 5px;
+	margin-left: 20px;
+}
+.header .options p.option {
+	padding-top: 8px;
+	margin-left: 20px;
+}
+.header .options .profile-image {
+	border: 2px solid #222222;
+	padding: 1px;
+}
+
+
+
+
 
 .footer {
 	float: left;
@@ -25,14 +66,17 @@ body {
 .widget {
 	border: 1px solid #CCCCCC;
     border-radius: 10px 10px 10px 10px;
-    height: 150px;
-    padding: 10px;
-    width: 350px;
-    margin: 10px;
     float: left;
+    margin: 10px;
+    transition: all 300ms ease-in-out 0s;
+    height: 115px;
+    width: 230px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
 
-	transition: all 500ms ease-in-out;
-	-webkit-transition: all 500ms ease-in-out;
+	transition: all 300ms ease-in-out;
+	-webkit-transition: all 300ms ease-in-out;
 	-moz-transition: all 300ms ease-in-out;
 	-o-transition: all 300ms ease-in-out;
 	-ms-transition: all 300ms ease-in-out;
@@ -42,10 +86,42 @@ body {
     border: 1px solid #FECA00;
     box-shadow: 0 0px 5px #FECA00;
 }
+.widget p {
+    color: #555555;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+}
+.widget .overlay {
+	position:absolute;
+	bottom:0px;
+	width:100%;
+	height: 0;
+	background-color:black;
+	opacity:0.7;
+	padding-top: 10px;
+	border-radius:0px 0px 10px 10px;
+	color:white;
+	
+	transition: height 500ms ease-in-out;
+	-webkit-transition: height 500ms ease-in-out;
+	-moz-transition: height 500ms ease-in-out;
+	-o-transition: height 500ms ease-in-out;
+	-ms-transition: height 500ms ease-in-out;
+}
+.widget .overlay:HOVER {
+	height: 55px;
+}
+.widget .overlay-container {
+	padding: 10px;
+}
+
+
 
 .tecsociales-panel {
     border: 1px solid #AAAAAA;
     border-bottom: 0px;
+    border-top: 7px solid #FECA00;
     padding: 5px;
     background-color: #F4F6F9;
     opacity: 0.9;
@@ -53,5 +129,16 @@ body {
     right: 35px;
     bottom: 0;
     width: 300px;
+    height: 15px;
+    cursor: pointer;
+    
+   	transition: height 500ms ease-in-out;
+	-webkit-transition: height 500ms ease-in-out;
+	-moz-transition: height 500ms ease-in-out;
+	-o-transition: height 500ms ease-in-out;
+	-ms-transition: height 500ms ease-in-out;
+}
+
+.tecsociales-panel:HOVER {
     height: 350px;
 }

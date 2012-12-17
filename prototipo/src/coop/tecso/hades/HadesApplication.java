@@ -13,13 +13,20 @@ public class HadesApplication extends Application {
 	public void init() {
 		 
 		CustomLayout custom = new CustomLayout("panel-widgets");
-		 
-// TEST GIT		 
+		
+		// logo
+		custom.addComponent(new Embedded(null, new ThemeResource("images/logo.png")), "logo");
+
+		// user profile image
+		custom.addComponent(new Embedded(null, new ThemeResource("images/profile.jpg")), "profile-image");
+		
+		
+		
 		custom.addComponent(new Embedded("", new ThemeResource("images/warning-icon.png")), "warning-icon");
 		
 		
 		// Main window
-		Window mainWindow = new Window("Hades @ Tecso");
+		Window mainWindow = new Window("Hades | Tecso Coop.");
 		mainWindow.setSizeFull();
 		mainWindow.addComponent(custom);
 		setMainWindow(mainWindow);
