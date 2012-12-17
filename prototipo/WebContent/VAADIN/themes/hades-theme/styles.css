@@ -1,5 +1,6 @@
 
 body {
+	background-image: url('http://twitter.github.com/assets/bg.png');
 	background-color: #F8F9F4;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 12px;
@@ -12,6 +13,7 @@ body {
  */
 .header {
     border-bottom: 3px solid #FECA00;
+    background-color: #FEFEFE;
     height: 50px;
     padding-left: 5px;
     padding-top: 5px;
@@ -115,8 +117,9 @@ body {
     color: #777777;
     bottom: 0;
     position: absolute;
-    padding-top: 27px;
-    height: 14px;
+    padding-top: 8px;
+    padding-left: 8px;
+    height: 30px;
     width: 100%;
 	
 	transition: all 500ms ease-in-out;
@@ -130,12 +133,16 @@ body {
     padding-top: 2px;
 }
 .widget .overlay-container {
-	font-size: 14px;
 	padding: 10px;
-	padding-top: 14px;
+	padding-top: 16px;
 }
 .notification {
     background-image: url("/hades/VAADIN/themes/hades-theme/images/notification.png");
+    background-position: 205px 5px;
+    background-repeat: no-repeat;
+}
+.quickdus-green {
+	background-image: url("/hades/VAADIN/themes/hades-theme/images/quickdus-green.png");
     background-position: 205px 5px;
     background-repeat: no-repeat;
 }
@@ -144,26 +151,24 @@ body {
 
 
 
-
 .tecsociales-panel {
     border: 1px solid #AAAAAA;
-    border-bottom: 0px;
-    border-top: 7px solid #FECA00;
+    border-top: 0px;
+    border-bottom: 7px solid #FECA00;
     padding: 5px;
     background-color: #F4F6F9;
     opacity: 0.9;
     position: absolute;
     right: 35px;
-    bottom: 0;
     width: 300px;
-    height: 17px;
+    height: 14px;
     cursor: pointer;
     overflow: hidden;
-    
+    /*
     background-image: url("/hades/VAADIN/themes/hades-theme/images/notification-yellow.png");
     background-repeat: no-repeat;
     background-position: right 1px;
-    
+    */
    	transition: height 500ms ease-in-out;
 	-webkit-transition: height 500ms ease-in-out;
 	-moz-transition: height 500ms ease-in-out;
@@ -171,7 +176,7 @@ body {
 	-ms-transition: height 500ms ease-in-out;
 }
 .tecsociales-panel:HOVER {
-    height: 350px;
+    height: 355px;
 }
 .tecsociales-panel .news {
     background: none repeat scroll 0 0 white;
