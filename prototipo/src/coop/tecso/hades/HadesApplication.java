@@ -20,10 +20,9 @@ public class HadesApplication extends Application {
 		// user profile image
 		custom.addComponent(new Embedded(null, new ThemeResource("images/profile.jpg")), "profile-image");
 		
-		
-		
-		custom.addComponent(new Embedded("", new ThemeResource("images/warning-icon.png")), "warning-icon");
-		
+
+		// user profile image
+		custom.addComponent(new Embedded(null, new ThemeResource("images/warning-icon.png")), "warning-icon");	
 		
 		// Main window
 		Window mainWindow = new Window("Hades | Tecso Coop.");
